@@ -6,7 +6,7 @@ import NavLink from './NavLink';
 const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-gray-200">
-      <nav className="container mx-auto px-6 h-20 flex justify-between items-center">
+      <nav className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
         <div>
           <div className="navbar-start">
             <div className="dropdown">
@@ -17,7 +17,7 @@ const Navbar = () => {
                 tabIndex="-1"
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow space-y-3">
                 <NavLink href="/">Home</NavLink>
-                <NavLink href="/All-Titles">All-Titles</NavLink>
+                <NavLink href="/All-Tiles">All-Tiles</NavLink>
                 <NavLink href="/my-profile">My-Profile</NavLink>
                 <Link
                   href="/login"
@@ -44,7 +44,7 @@ const Navbar = () => {
         <div>
           <ul  className="hidden lg:flex items-center gap-8">
             <NavLink href={"/"}>Home</NavLink>
-            <NavLink href={"/All-Titles"}>All-Titles</NavLink>
+            <NavLink href={"/All-Tiles"}>All-Tiles</NavLink>
             <NavLink href={"/my-profile"}>My-Profile</NavLink>
 
           </ul>

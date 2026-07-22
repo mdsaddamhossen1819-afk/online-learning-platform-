@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 
 export default function Home() {
   return (
-    redirect(`/category/${default_category_id}`)
+    // redirect(`/category/${default_category_id}`)
+    <div></div>
   );
 }

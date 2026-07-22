@@ -1,0 +1,88 @@
+{
+ "tiles": [
+  {
+    "id": "tile_001",
+    "title": "Ceramic Blue Tile",
+    "description": "Premium ceramic tile with blue glaze finish",
+    "image": "/images/tiles/tile_001.jpg",
+    "category": "ceramic",
+    "price": 45.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_002",
+    "title": "Marble White Tile",
+    "description": "Elegant white marble tile with polished surface",
+    "image": "/images/tiles/tile_002.jpg",
+    "category": "marble",
+    "price": 79.99,
+    "currency": "USD",
+    "dimensions": "60x120 cm",
+    "material": "Marble",
+    "inStock": true
+  },
+  {
+    "id": "tile_003",
+    "title": "Granite Black Tile",
+    "description": "Durable black granite tile for indoor and outdoor use",
+    "image": "/images/tiles/tile_003.jpg",
+    "category": "granite",
+    "price": 89.99,
+    "currency": "USD",
+    "dimensions": "80x80 cm",
+    "material": "Granite",
+    "inStock": false
+  },
+  {
+    "id": "tile_004",
+    "title": "Wood Finish Tile",
+    "description": "Natural wood-look porcelain tile with matte finish",
+    "image": "/images/tiles/tile_004.jpg",
+    "category": "porcelain",
+    "price": 55.99,
+    "currency": "USD",
+    "dimensions": "20x120 cm",
+    "material": "Porcelain",
+    "inStock": true
+  },
+  {
+    "id": "tile_005",
+    "title": "Concrete Grey Tile",
+    "description": "Modern concrete-style tile for contemporary interiors",
+    "image": "/images/tiles/tile_005.jpg",
+    "category": "ceramic",
+    "price": 49.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
+  },
+  {
+    "id": "tile_006",
+    "title": "Mosaic Glass Tile",
+    "description": "Luxury glass mosaic tile ideal for kitchens and bathrooms",
+    "image": "/images/tiles/tile_006.jpg",
+    "category": "glass",
+    "price": 99.99,
+    "currency": "USD",
+    "dimensions": "30x30 cm",
+    "material": "Glass",
+    "inStock": true
+  },
+  {
+    "id": "tile_007",
+    "title": "Stone Beige Tile",
+    "description": "Premium natural stone tile with textured finish",
+    "image": "/images/tiles/tile_007.jpg",
+    "category": "stone",
+    "price": 69.99,
+    "currency": "USD",
+    "dimensions": "60x90 cm",
+    "material": "Natural Stone",
+    "inStock": false
+  }
+]  
+}
