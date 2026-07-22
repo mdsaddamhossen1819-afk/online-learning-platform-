@@ -83,6 +83,18 @@
     "dimensions": "60x90 cm",
     "material": "Natural Stone",
     "inStock": false
+  },
+  {
+    "id": "tile_005",
+    "title": "Concrete Grey Tile",
+    "description": "Modern concrete-style tile for contemporary interiors",
+    "image": "/images/tiles/tile_005.jpg",
+    "category": "ceramic",
+    "price": 49.99,
+    "currency": "USD",
+    "dimensions": "60x60 cm",
+    "material": "Ceramic",
+    "inStock": true
   }
 ]  
 }
