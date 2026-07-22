@@ -16,9 +16,9 @@ const Navbar = () => {
               <ul
                 tabIndex="-1"
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow space-y-3">
-                <Link href={"/"}>Home</Link>
-                <Link href={"/"}>All-Titles</Link>
-                <Link href={"/"}>My-Profile</Link>
+                <NavLink href="/">Home</NavLink>
+                <NavLink href="/All-Titles">All-Titles</NavLink>
+                <NavLink href="/my-profile">My-Profile</NavLink>
                 <Link
                   href="/login"
                   className="px-5 py-2.5 font-medium border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-50 transition"
@@ -27,7 +27,7 @@ const Navbar = () => {
                 </Link>
 
                 <Link
-                  href="/register"
+                  href="/sing-up"
                   className="px-5 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
                 >
                   Sign Up
@@ -35,8 +35,8 @@ const Navbar = () => {
               </ul>
             </div>
             <Link href="/" className="text-3xl font-bold">
-              <span className="text-blue-600 ">Learning</span>
-              <span className="text-black">Platform</span>
+              <span className="text-blue-600 ">Skill</span>
+              <span className="text-black">Sphere</span>
             </Link>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/register"
+            href="/sing-up"
             className="px-5 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
           >
             Sign Up
